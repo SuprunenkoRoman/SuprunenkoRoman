@@ -1,0 +1,21 @@
+{
+    "name": "module-1",
+    "version": "0.0.2",
+    "description": "",
+    "author": "",
+    "private": true,
+    "license": "UNLICENSED",
+    "main": "dist/src/main",
+    "engines": {
+        "node": "16.x.x",
+        "npm": "8.x.x"
+    },
+    "scripts": {
+        "module1": "cd module-1 && npm run test",
+        "module2": "cd module-2 && npm run test",
+        "clientinstall": "cd module-1 && npm install",
+        "serverinstall": "cd module-2 && npm install",
+        "test": "jest"
+    },
+    "dependencies": {}
+}
